@@ -23,4 +23,5 @@ def find_the_cheese(strings)# code an argument here
   strings.each do |word|
     return word if cheese_types.include?(word)
   end
+  return nil
 end
